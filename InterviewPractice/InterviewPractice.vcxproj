@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="CriticalConnection.h" />
     <ClInclude Include="CuttoffRanks.h" />
+    <ClInclude Include="HourglassSum.h" />
     <ClInclude Include="UtilizationChecks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

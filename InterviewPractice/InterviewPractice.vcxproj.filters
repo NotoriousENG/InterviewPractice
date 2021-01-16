@@ -29,5 +29,8 @@
     <ClInclude Include="UtilizationChecks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HourglassSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
