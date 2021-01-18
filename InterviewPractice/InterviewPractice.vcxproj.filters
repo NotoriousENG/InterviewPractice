@@ -29,7 +29,7 @@
     <ClInclude Include="UtilizationChecks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HourglassSum.h">
+    <ClInclude Include="MininumTotalContainerSize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,11 +6,12 @@
 #include "CuttoffRanks.h"
 #include "UtilizationChecks.h"
 #include "CriticalConnection.h"
+#include "MininumTotalContainerSize.h"
 #include "vector"
 
 int main()
 {
-	UtilizationChecks::print_check(5, { 30,5,4,8,19,89 });
+	/*UtilizationChecks::print_check(5, { 30,5,4,8,19,89 });
 	
 	CuttoffRanks::print_cut_off_rank(3, 4, { 100, 50, 50, 25 });
 	CuttoffRanks::print_cut_off_rank(4, 5, {2, 2, 3, 4, 5});
@@ -18,7 +19,10 @@ int main()
 	int p[4][2] = { {1,2}, {1, 3}, {3,2}, {3, 4} };
 	CriticalConnection testConn;
 	std::vector<std::vector<int>> conns = { {0,1}, {1,2}, {2,0},{1,3} };
-	testConn.printCriticalConnections(4, conns);
+	testConn.printCriticalConnections(4, conns);*/
+
+	vector<int> shipments = { 10, 2, 20, 5, 15, 10, 1 };
+	MininumTotalContainerSize::findMininumTotalContainerSize(shipments, 3);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
